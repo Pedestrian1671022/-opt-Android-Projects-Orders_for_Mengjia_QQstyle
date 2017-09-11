@@ -1,0 +1,17 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar command;
+!start <Start>;
+
+<Start>:<start0> | <start1> | <start2> | <start3>;
+
+<start0>:[<robot>][<take>]<something><to><who>|[<robot>][<help>]<who><get><something0>;
+<robot>:大宝大宝;
+<take>:把;
+<help>:帮;
+<something>:杯子!id(20)|水杯!id(20)|那杯水!id(20)|瓶子!id(21)|那瓶水!id(21);
+<something0>:杯水!id(20)|瓶水!id(21);
+<to>:给!id(30)|递给!id(30)|拿给!id(30);
+<get>:拿;
+<who>:我!id(40);
+
+<start1>:[<robot>]你都会些什么!id(9525)|[<robot>]你有什么本领!id(9525)|[<robot>]你有哪些功能!id(9525)|[<robot>]你能做些什么!id(9525);
