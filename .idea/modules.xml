@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Orders_for_Mengjia_QQstyle_SwitchMode.iml" filepath="$PROJECT_DIR$/Orders_for_Mengjia_QQstyle_SwitchMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Orders_for_Mengjia_QQstyle.iml" filepath="$PROJECT_DIR$/Orders_for_Mengjia_QQstyle.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
